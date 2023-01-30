@@ -1,3 +1,49 @@
+# Requirements
+
+- node version should be v16.16.0
+- npm version should be 8.5.1
+
+# Folder Structure
+
+- public
+- index.html
+  Note: this is a root file of the application
+- src
+  - components
+    - layout
+      - Layout.js
+      - Layout.module.css
+      - MainNavigation.js
+      - MainNavigation.module.css
+    - meetups
+      - MeetupItm.js
+      - MeetupItem.module.css
+      - MeetupList.js
+      - MeetupList.module.css
+      - NewMeetupForm.js
+      - NewMeetupForm.module.css
+    - ui
+      - Card.js
+      - Card.module.css
+      - Backdrop.js
+      - Modal.js
+      - Todo.js
+- Pages
+  - AllMeetup.js
+  - Favorite.js
+  - NewMeetup.js
+- store - favorite.context.js
+- App.css
+- App.js
+- App.test
+- index.css
+- index.js
+- reportWebVitals
+- setupTest.js
+- .gitingore
+- package.json
+- README.md
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
