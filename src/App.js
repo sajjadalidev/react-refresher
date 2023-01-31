@@ -6,6 +6,7 @@ import { NewMeetup } from "./Pages/NewMeetup";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./Components/layout/Layout";
+import { ImageUploader } from "./Pages/ImageUploader";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<AllMeetups />} exact />
           <Route path="/favorites" element={<Favorite />} />{" "}
           <Route path="/new-meetup" element={<NewMeetup />} />
+          <Route path="/image-upload" element={<ImageUploader />} />
         </Routes>
       </Layout>
     </Router>

@@ -21,6 +21,9 @@ export const MainNavigation = () => {
               Favorite Meetups <span>{totalFavorites}</span>
             </Link>
           </li>
+          <li>
+            <Link to="/image-upload">Image Upload</Link>
+          </li>
         </ul>
       </nav>
     </header>
